@@ -61,5 +61,3 @@ RUN apt install php7.2-xdebug
 #dumb-init
 RUN wget https://github.com/Yelp/dumb-init/releases/download/v1.2.1/dumb-init_1.2.1_amd64.deb
 RUN dpkg -i dumb-init_*.deb
-
-CMD []
